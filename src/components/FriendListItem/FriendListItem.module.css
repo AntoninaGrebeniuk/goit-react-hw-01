@@ -1,0 +1,12 @@
+.status {
+  color: black;
+  font-size: 24px;
+}
+
+.online {
+  color: rgb(129, 196, 28);
+}
+
+.offline {
+  color: red;
+}
