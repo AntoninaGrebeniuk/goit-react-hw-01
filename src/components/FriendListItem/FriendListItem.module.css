@@ -1,12 +1,27 @@
+.avatar {
+  padding: 5px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: inset -2px -2px 5px var(--white),
+    inset 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.name {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--accent);
+}
+
 .status {
-  color: black;
+  text-align: center;
   font-size: 24px;
 }
 
 .online {
-  color: rgb(129, 196, 28);
+  color: var(--green);
 }
 
 .offline {
-  color: red;
+  color: var(--red);
 }
